@@ -10,7 +10,6 @@ const steps = {
 
 function isObstacle(x,y,obstacles){
     return obstacles.some(([ox,oy])=> ox === x && oy === y)
-
 }
 
 function process ({x,y,direction,obstacles=[],commands}){
