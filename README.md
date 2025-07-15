@@ -7,9 +7,30 @@ You can send commands like forward (`F`), backward (`B`), rotate left (`L`), and
 
 ---
 
+
+---
+
 ## Setup
 
 ```bash
+
 git clone https://github.com/your-username/mars-rover-api.git
 cd mars-rover-api
 npm install
+
+```
+
+### To Run the Tests
+
+to run the unit tests
+
+```bash
+
+npm test
+
+```
+
+
+
+
+
